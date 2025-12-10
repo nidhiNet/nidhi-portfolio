@@ -3,7 +3,6 @@ import { ArrowRight, Download, Terminal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { personalInfo } from "@/lib/resume-data";
 import techBg from "@assets/generated_images/dark_abstract_technology_background_with_geometric_nodes.png";
-import resumeUrl from "@assets/nidhi-gadhavi-resume_1765371480297.docx";
 
 export function Hero() {
   return (
@@ -60,7 +59,7 @@ export function Hero() {
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href={resumeUrl} download="Nidhi_Gadhavi_Resume.docx">
+              <a href="/resume.docx" download="Nidhi_Gadhavi_Resume.docx">
                 <Download className="mr-2 w-4 h-4" />
                 Download Resume
               </a>
